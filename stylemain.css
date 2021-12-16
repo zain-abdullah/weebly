@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+
+}
+.head1{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Square Market,helvetica,arial,sans-serif;
+    color: #323b43;
+}
+.tools{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Square Market,helvetica,arial,sans-serif;
+    color:#babcbf
+}
+.row{
+    padding: 85px;
+    display: flex;
+    /* justify-content: space-between;     */
+}
+@media (max-width:1070px){
+    .row{
+        display: block;
+    }
+}
+.image{
+    text-align: center;
+    border: solid 1px;
+    border-color: rgb(87, 86, 86);
+    margin: 10px;
+}
+

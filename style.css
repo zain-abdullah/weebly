@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+.head-div{
+    margin-top: 120px;
+}
+.navbar{
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid;
+    border-color: rgb(206, 205, 203);
+    justify-content: center;
+}
+.nav-link{
+    font-weight: bold;
+}
+.container{
+    height: 2200px;
+}
+.row{
+    margin-top: 20px;
+}
+.img1{
+    text-align: center;
+    transition-duration: .5s;
+    border-radius: 4px;
+}
+.img1:hover{
+    transform: scale(1.05);
+}
